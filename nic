@@ -1,0 +1,7 @@
+To push changes from local repo to github:
+generate SSH key
+add it to agent
+add it to github
+test with: $ ssh -T git@github.com
+update remote url: $ git remote set-url origin ssh://git@github.com/username/repo.git
+'ssh://git@' is essential
